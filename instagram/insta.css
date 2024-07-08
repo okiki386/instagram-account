@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+.main .maincontainer{
+    border: 1px solid ;
+    border-color: #EDEAE0;
+    width: 340px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.main .maincontainer .img{
+    width: 200px;
+}
+
+.main .maincontainer .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.main .maincontainer .form input{
+    padding: 11px;
+    border: 1px solid;
+    border-color: #EDEAE0;
+    width: 250px;
+    background-color: #FAFAFA;
+}
+
+.main .maincontainer .form button{
+    padding: 11px;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 5px;
+    background-color: #0095F6;
+    border-color: white;
+}
+
+.main .maincontainer .line{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 250px;
+    margin-top: 25px;
+}
+
+.main .maincontainer hr{
+    width: 40%;
+    height: 2px;
+    margin-top: 10px;
+}
+.main .maincontainer .tag{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.main .maincontainer .pic{
+    width: 20px;
+    height: 50px;
+}
+.main .maincontainer .anchor{
+    text-decoration: none;
+}
+.main .maincontainer .pass{
+    text-decoration: none;
+    font-size: small;
+}
+
+.main .signup{
+    border: 1px solid;
+    border-color: #EDEAE0;
+    width: 340px;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .signup .anc{
+    color: #0095F6;
+    text-decoration: none;
+}
+.main .get{
+    margin-top: 20px;
+}
+.main .images{
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 50px;
+    align-items: center;
+}
+.main .images .apple{
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+}
+.main .images .boy{
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+}
